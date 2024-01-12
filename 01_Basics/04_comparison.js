@@ -19,6 +19,9 @@ console.log(undefined <= 0);
 console.log(undefined < 0);
 console.log(undefined > 0);
 
+// Avoid this type of Comparison
+
 //  === strick check
 
-console.log(2 === 2);
+console.log("2" === 2);
+
