@@ -6,7 +6,7 @@ let accountState;
 
 // const cannot change
 // accountId = 2 not allowed
-// Prefer of issue in block scope and functional scope 
+// Why var is not ?? Prefer of issue in block scope and functional scope 
 
 accountEmail = "def@gmail.com"
 accountPassword = "565656"
