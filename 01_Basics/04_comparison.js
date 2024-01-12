@@ -24,4 +24,3 @@ console.log(undefined > 0);
 //  === strick check
 
 console.log("2" === 2);
-
