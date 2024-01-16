@@ -36,3 +36,4 @@ switch(month){
         console.log("Default case");
         break;
 }
+
