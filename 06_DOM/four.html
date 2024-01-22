@@ -19,7 +19,7 @@
         appendChild(li)
     }
     addLanguage("Python")
-    addLanguage("typescript")
+    addLanguage("Typescript")
 
     function addOptiLanguage(langName){
         const li = document.createElement('li')
@@ -38,8 +38,13 @@
     newli.textContent = "Mojo"
     secondLang.replaceWith(newli)
 
+    // Edit
+    const fLang = document.querySelector("li:first-child")
+    fLang.outerHTML = "<li>TypeScript</li>"
 
-
+    //Remove
+    const llang = document.querySelector('li:last-child')
+    llang.remove()
 
 </script>
 </html>
